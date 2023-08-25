@@ -1,5 +1,6 @@
 //your JS code here. If required.
 let option1 = document.getElementById("colorSelect");
+let button = document.getElementById("btn");
 
 button.addEventListener("click",()=>{
 	option1.remove(option1.selectedIndex);
